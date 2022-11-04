@@ -36,17 +36,18 @@ function getRandom (list) {
             executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
           });
         await sendGetRequest();
-
         const page = await browser.newPage();
-
           var dataVideo = fs.readFileSync('./dataVideo.json');
             fs.readFile('./dataVideo.json', (async (error,data) =>  {
             if (error) throw error;
             let jsonData = JSON.parse(data.toString());
-            console.log(jsonData.list)
+            // console.log(jsonData.list)
               let respIndex = jsonData.list.length
+              let x = 1
+              while(x > 0){
+              console.log("looping ke",x)
               for(i = 0; i< respIndex; i++){
-                  console.log(jsonData.list[i].id)
+                  console.log(jsonData.list[i].title)
                   let vidId = jsonData.list[i].id
                   let videoUrl = 'https://dailymotion.com/video/' + vidId
                   let getUserAgent =  getRandom(userAgent)
@@ -59,6 +60,8 @@ function getRandom (list) {
                   await page.waitForTimeout(delay)
                   //await browser.close();
               }
+              x++;
+            }
           }));
    
 
