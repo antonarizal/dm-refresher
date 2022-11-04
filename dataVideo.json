@@ -1,0 +1,57 @@
+{
+  "page": 1,
+  "limit": 10,
+  "explicit": false,
+  "total": 8,
+  "has_more": false,
+  "list": [
+    {
+      "id": "x8f6bsv",
+      "title": "10 Awesome Gadgets from Aliexpress!",
+      "channel": "tech",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f5szy",
+      "title": "Info Update Untuk Peserta Prioritas Seleksi PPPK 2022 Cek Sekarang",
+      "channel": "school",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f5scy",
+      "title": "Gaji Guru Lulusan PPG Prajabatan",
+      "channel": "school",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f55v8",
+      "title": "DIY How to make a notebook from HVS paper",
+      "channel": "creation",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f50qc",
+      "title": "5 Langkah Tehnis Persiapan Implementasi Kurikulum Merdeka",
+      "channel": "school",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f4zqv",
+      "title": "Panduan Cara Menyusun ATP (Alur Tujuan Pembelajaran) Kurikulum Merdeka. Format ATP",
+      "channel": "school",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x8f4z1k",
+      "title": "Menyusun Modul Ajar Kurikulum Merdeka Versi Lengkap",
+      "channel": "school",
+      "owner": "x1erz4h"
+    },
+    {
+      "id": "x212eqv",
+      "title": "Modifikasi Mobil Toyota Yaris terbaru 2014",
+      "channel": "auto",
+      "owner": "x1erz4h"
+    }
+  ]
+}
